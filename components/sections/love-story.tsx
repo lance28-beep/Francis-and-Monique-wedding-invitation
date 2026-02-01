@@ -23,12 +23,8 @@ export function LoveStory() {
         title="Our story"
         text={
           <>
-            <p className="mb-4">
-              Once upon a signature…
-            </p>
             <p>
-            Our story began with a single signature—an unremarkable moment that quietly unfolded into something extraordinary. He was my financial advisor, and I had come merely to sign documents. On July 2021, we met in the lobby of the building, unaware that fate had already taken note. What seemed like an ordinary day became the first chapter of a love story neither of us saw coming.
-            </p>
+            God works in mysterious ways — sometimes He starts a story in the most ordinary moments. We had no idea that what began so simply would become the greatest adventure of our lives.            </p>
           </>
         }
       />

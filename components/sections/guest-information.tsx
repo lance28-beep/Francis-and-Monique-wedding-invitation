@@ -95,10 +95,10 @@ export function GuestInformation() {
             <div className="mb-5 sm:mb-6 md:mb-8 lg:mb-10 relative z-10 px-2">
               <div className="mb-3 sm:mb-4 md:mb-5">
                 <h5 className={`${cinzel.className} text-base sm:text-lg md:text-xl lg:text-2xl text-center text-[#606C60] mb-2 sm:mb-3`}>
-                  Attire guide
+                Attire guidelines
                 </h5>
                 <p className={`${cormorant.className} text-xs sm:text-sm md:text-base lg:text-lg text-center text-[#606C60] font-semibold`}>
-                  strictly formal attire
+                  Note: strictly formal attire
                 </p>
               </div>
               <p className={`${cormorant.className} text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl text-center text-[#606C60] max-w-3xl mx-auto leading-relaxed sm:leading-loose`}>
@@ -106,8 +106,89 @@ export function GuestInformation() {
               </p>
             </div>
 
+
+
+            {/* Attire Guidelines - Role-specific */}
+            <div className="mt-8 sm:mt-10 relative z-10">
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 sm:gap-6 max-w-4xl mx-auto">
+                {/* Mother | Father */}
+                <div className="flex flex-col items-center">
+                  <div className="w-full h-48 sm:h-52 md:h-56 flex items-center justify-center">
+                    <Image src="/Details/MotherandFather-removebg-preview.png" alt="Mother and Father attire" width={280} height={280} className="w-full h-full max-w-[200px] sm:max-w-[220px] object-contain" />
+                  </div>
+                  <p className={`${cormorant.className} text-sm sm:text-base font-semibold text-[#606C60] mt-2 mb-1.5 text-center`}>Mother | Father</p>
+                  <div className="flex gap-1.5 justify-center">
+                    {['#96A298', '#737373', '#555754'].map((c) => (
+                      <div key={c} className="w-6 h-6 sm:w-7 sm:h-7 rounded" style={{ backgroundColor: c, border: '1px solid rgba(96,108,96,0.2)' }} />
+                    ))}
+                  </div>
+                </div>
+                {/* Ninong | Ninang */}
+                <div className="flex flex-col items-center">
+                  <div className="w-full h-48 sm:h-52 md:h-56 flex items-center justify-center">
+                    <Image src="/Details/NinongNinang-removebg-preview.png" alt="Ninong and Ninang attire" width={280} height={280} className="w-full h-full max-w-[200px] sm:max-w-[220px] object-contain" />
+                  </div>
+                  <p className={`${cormorant.className} text-sm sm:text-base font-semibold text-[#606C60] mt-2 mb-1.5 text-center`}>Ninong | Ninang</p>
+                  <div className="flex gap-1.5 justify-center">
+                    {['#E1D5C7', '#737373', '#555754'].map((c) => (
+                      <div key={c} className="w-6 h-6 sm:w-7 sm:h-7 rounded" style={{ backgroundColor: c, border: '1px solid rgba(96,108,96,0.2)' }} />
+                    ))}
+                  </div>
+                </div>
+                {/* Groomsmen */}
+                <div className="flex flex-col items-center">
+                  <div className="w-full h-48 sm:h-52 md:h-56 flex items-center justify-center">
+                    <Image src="/Details/Groomsmen-removebg-preview.png" alt="Groomsmen attire" width={280} height={280} className="w-full h-full max-w-[200px] sm:max-w-[220px] object-contain" />
+                  </div>
+                  <p className={`${cormorant.className} text-sm sm:text-base font-semibold text-[#606C60] mt-2 mb-1.5 text-center`}>Groomsmen</p>
+                  <div className="flex gap-1.5 justify-center">
+                    {['#E1D5C7', '#96A298', '#737373'].map((c) => (
+                      <div key={c} className="w-6 h-6 sm:w-7 sm:h-7 rounded" style={{ backgroundColor: c, border: '1px solid rgba(96,108,96,0.2)' }} />
+                    ))}
+                  </div>
+                </div>
+                {/* Bridesmaids */}
+                <div className="flex flex-col items-center">
+                  <div className="w-full h-48 sm:h-52 md:h-56 flex items-center justify-center">
+                    <Image src="/Details/Bridemaids-removebg-preview.png" alt="Bridesmaids attire" width={280} height={280} className="w-full h-full max-w-[200px] sm:max-w-[220px] object-contain" />
+                  </div>
+                  <p className={`${cormorant.className} text-sm sm:text-base font-semibold text-[#606C60] mt-2 mb-1.5 text-center`}>Bridesmaids</p>
+                  <div className="flex gap-1.5 justify-center">
+                    {['#96A298'].map((c) => (
+                      <div key={c} className="w-6 h-6 sm:w-7 sm:h-7 rounded" style={{ backgroundColor: c, border: '1px solid rgba(96,108,96,0.2)' }} />
+                    ))}
+                  </div>
+                </div>
+                {/* Guest */}
+                <div className="flex flex-col items-center">
+                  <div className="w-full h-48 sm:h-52 md:h-56 flex items-center justify-center">
+                    <Image src="/Details/Guest-removebg-preview.png" alt="Guest attire" width={280} height={280} className="w-full h-full max-w-[200px] sm:max-w-[220px] object-contain" />
+                  </div>
+                  <p className={`${cormorant.className} text-sm sm:text-base font-semibold text-[#606C60] mt-2 mb-1.5 text-center`}>Guest</p>
+                  <div className="flex gap-1.5 justify-center">
+                    {['#606C60', '#E1D5C7', '#96A298', '#737373', '#555754'].map((c) => (
+                      <div key={c} className="w-6 h-6 sm:w-7 sm:h-7 rounded" style={{ backgroundColor: c, border: '1px solid rgba(96,108,96,0.2)' }} />
+                    ))}
+                  </div>
+                </div>
+                {/* Flower Girls Ring Bearer */}
+                <div className="flex flex-col items-center">
+                  <div className="w-full h-48 sm:h-52 md:h-56 flex items-center justify-center">
+                    <Image src="/Details/FlowerGirlsRingBearer-removebg-preview.png" alt="Flower Girls and Ring Bearer attire" width={280} height={280} className="w-full h-full max-w-[200px] sm:max-w-[220px] object-contain" />
+                  </div>
+                  <p className={`${cormorant.className} text-sm sm:text-base font-semibold text-[#606C60] mt-2 mb-1.5 text-center`}>Flower Girls | Ring Bearer</p>
+                  <div className="flex gap-1.5 justify-center">
+                    {['#E1D5C7', '#96A298', '#737373'].map((c) => (
+                      <div key={c} className="w-6 h-6 sm:w-7 sm:h-7 rounded" style={{ backgroundColor: c, border: '1px solid rgba(96,108,96,0.2)' }} />
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Attire guide image */}
-            <div className="mb-5 sm:mb-6 md:mb-8 lg:mb-10 relative z-10 flex justify-center px-2">
+            <div className="mt-8 sm:mt-10 mb-5 sm:mb-6 relative z-10 flex justify-center px-2">
               <Image
                 src="/Details/attire.png"
                 alt="Attire guide - semi formal and formal dress code"
@@ -120,72 +201,63 @@ export function GuestInformation() {
 
             {/* Color Palette - 5 blocks with arched tops */}
             <div className="flex items-end justify-center gap-1.5 sm:gap-2 md:gap-3 lg:gap-4 xl:gap-5 relative z-10">
-              {/* Color 1: #606C60 */}
               <div className="flex-1 max-w-[60px] sm:max-w-[70px] md:max-w-[90px] lg:max-w-[110px] xl:max-w-[130px] group">
-                <div 
+                <div
                   className="w-full h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl"
-                  style={{ 
-                    backgroundColor: '#606C60',
-                    clipPath: 'polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)',
-                    borderRadius: '0 0 4px 4px',
-                    boxShadow: '0 2px 8px rgba(96, 108, 96, 0.25)',
-                    border: '2px solid rgba(96, 108, 96, 0.3)'
+                  style={{
+                    backgroundColor: "#606C60",
+                    clipPath: "polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)",
+                    borderRadius: "0 0 4px 4px",
+                    boxShadow: "0 2px 8px rgba(96, 108, 96, 0.25)",
+                    border: "2px solid rgba(96, 108, 96, 0.3)",
                   }}
                 />
               </div>
-              
-              {/* Color 2: #E1D5C7 */}
               <div className="flex-1 max-w-[60px] sm:max-w-[70px] md:max-w-[90px] lg:max-w-[110px] xl:max-w-[130px] group">
-                <div 
+                <div
                   className="w-full h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl"
-                  style={{ 
-                    backgroundColor: '#E1D5C7',
-                    clipPath: 'polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)',
-                    borderRadius: '0 0 4px 4px',
-                    boxShadow: '0 2px 8px rgba(225, 213, 199, 0.25)',
-                    border: '2px solid rgba(96, 108, 96, 0.3)'
+                  style={{
+                    backgroundColor: "#E1D5C7",
+                    clipPath: "polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)",
+                    borderRadius: "0 0 4px 4px",
+                    boxShadow: "0 2px 8px rgba(225, 213, 199, 0.25)",
+                    border: "2px solid rgba(96, 108, 96, 0.3)",
                   }}
                 />
               </div>
-              
-              {/* Color 3: #96A298 */}
               <div className="flex-1 max-w-[60px] sm:max-w-[70px] md:max-w-[90px] lg:max-w-[110px] xl:max-w-[130px] group">
-                <div 
+                <div
                   className="w-full h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl"
-                  style={{ 
-                    backgroundColor: '#96A298',
-                    clipPath: 'polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)',
-                    borderRadius: '0 0 4px 4px',
-                    boxShadow: '0 2px 8px rgba(150, 162, 152, 0.25)',
-                    border: '2px solid rgba(96, 108, 96, 0.3)'
+                  style={{
+                    backgroundColor: "#96A298",
+                    clipPath: "polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)",
+                    borderRadius: "0 0 4px 4px",
+                    boxShadow: "0 2px 8px rgba(150, 162, 152, 0.25)",
+                    border: "2px solid rgba(96, 108, 96, 0.3)",
                   }}
                 />
               </div>
-              
-              {/* Color 4: #737373 */}
               <div className="flex-1 max-w-[60px] sm:max-w-[70px] md:max-w-[90px] lg:max-w-[110px] xl:max-w-[130px] group">
-                <div 
+                <div
                   className="w-full h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl"
-                  style={{ 
-                    backgroundColor: '#737373',
-                    clipPath: 'polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)',
-                    borderRadius: '0 0 4px 4px',
-                    boxShadow: '0 2px 8px rgba(223, 219, 210, 0.25)',
-                    border: '2px solid rgba(96, 108, 96, 0.3)'
+                  style={{
+                    backgroundColor: "#737373",
+                    clipPath: "polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)",
+                    borderRadius: "0 0 4px 4px",
+                    boxShadow: "0 2px 8px rgba(223, 219, 210, 0.25)",
+                    border: "2px solid rgba(96, 108, 96, 0.3)",
                   }}
                 />
               </div>
-              
-              {/* Color 5: #555754 */}
               <div className="flex-1 max-w-[60px] sm:max-w-[70px] md:max-w-[90px] lg:max-w-[110px] xl:max-w-[130px] group">
-                <div 
+                <div
                   className="w-full h-20 sm:h-24 md:h-28 lg:h-32 xl:h-36 transition-all duration-300 group-hover:scale-105 group-hover:shadow-xl"
-                  style={{ 
-                    backgroundColor: '#555754',
-                    clipPath: 'polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)',
-                    borderRadius: '0 0 4px 4px',
-                    boxShadow: '0 2px 8px rgba(85, 87, 84, 0.25)',
-                    border: '2px solid rgba(96, 108, 96, 0.3)'
+                  style={{
+                    backgroundColor: "#555754",
+                    clipPath: "polygon(0 12%, 50% 0%, 100% 12%, 100% 100%, 0% 100%)",
+                    borderRadius: "0 0 4px 4px",
+                    boxShadow: "0 2px 8px rgba(85, 87, 84, 0.25)",
+                    border: "2px solid rgba(96, 108, 96, 0.3)",
                   }}
                 />
               </div>

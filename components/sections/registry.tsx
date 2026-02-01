@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import { Section } from "@/components/section"
 
 export function Registry() {
@@ -23,7 +22,7 @@ export function Registry() {
         </h2>
         
         <p className="text-xs sm:text-sm md:text-base lg:text-lg text-white/90 font-light max-w-2xl mx-auto leading-relaxed px-2">
-          With all that we have we are truly blessed. Your Presence and prayer are that we request, but if you are thinking of giving a gift, to help us on our way a monetary or if you prefer to purchase a gift, feel free to surprise as on your on way.
+          We are grateful to God for your love and prayers on our special day. For those who wish to give a gift, a monetary gift to help us begin our life together would be deeply appreciated.
         </p>
         
         <div className="flex items-center justify-center gap-2 mt-3 sm:mt-4">
@@ -34,30 +33,7 @@ export function Registry() {
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6">
-        <div className="relative bg-[#BCCFC0]/95 backdrop-blur-md border border-[#324D3E]/40 rounded-lg sm:rounded-xl md:rounded-2xl shadow-[0_20px_60px_rgba(50,77,62,0.15)] p-4 sm:p-6 md:p-8 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-br from-[#324D3E]/20 via-transparent to-[#8EA58B]/10 pointer-events-none" />
-
-          <div className="relative z-10 flex flex-col items-center justify-center">
-            <div className="relative bg-white/95 rounded-xl sm:rounded-2xl border-2 border-dashed border-[#324D3E]/40 p-5 sm:p-6 md:p-8 text-center shadow-[0_6px_24px_rgba(50,77,62,0.15)] max-w-md">
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#BCCFC0] px-3 py-1 rounded-full shadow-sm border-2 border-[#324D3E]/50 text-xs font-semibold tracking-[0.2em] text-[#324D3E] uppercase">
-                GCash:
-              </div>
-              <div className="flex flex-col items-center gap-4 w-full mt-4">
-                <div className="w-56 h-56 sm:w-64 sm:h-64 border-2 border-dashed border-[#324D3E]/40 rounded-xl sm:rounded-2xl flex items-center justify-center bg-white relative overflow-hidden">
-                  <Image
-                    src="/QR/monogram.png"
-                    alt="GCash QR code"
-                    fill
-                    sizes="256px"
-                    className="object-contain p-4"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="mt-6 sm:mt-8 text-center">
+        <div className="text-center">
           <p className="text-xs sm:text-sm text-white/90 italic">
             Thank you from the bottom of our hearts.
           </p>

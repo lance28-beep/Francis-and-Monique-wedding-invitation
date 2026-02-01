@@ -49,17 +49,7 @@ export const siteConfig = {
     note: "We kindly request our guests to dress in formal attire following our Modern Filipiniana theme."
   },
   narratives: {
-    ourStory: `Once upon a signature…
-
-Our story began with a simple signature, one that slowly turned into something magical. He was my financial advisor, and I was there to sign documents. It was July 5, 2021, and we met at the Lobby of the building. Little did we know, that ordinary day would start a story neither of us expected.
-
-I wasn't looking for anything, yet somehow, our connection grew in its own gentle, unexpected way. And then, on June 1, 2022, our story truly began—we became us. We found a love that feels like home.
-
-Our journey wasn't rushed, but perfectly timed. We believe that God brought us together in His own way and season.
-
-With hearts full of gratitude, we step into this new chapter hand in hand, trusting His plan and celebrating a love rooted in faith, patience, and grace.
-
-Today, we choose each other- again and again- and we can't wait to celebrate this new chapter with the people we love most.`,
+    ourStory: `God works in mysterious ways — sometimes He starts a story in the most ordinary moments. We had no idea that what began so simply would become the greatest adventure of our lives.`,
     groom: `The first time Mark saw Catherine, time seemed to slow down. It was an ordinary day that instantly became unforgettable: one smile, one hello, and suddenly his world had a new center. He didn't have the perfect words ready, but he knew he had met someone who felt like home.
 
 Early conversations turned into late-night talks, sharing dreams, favorite meals, and whispered prayers for a future together. With every small adventure—coffee runs, long drives, quiet walks—Mark found himself choosing her over and over again. He loved how she laughed freely, how she listened with her whole heart, and how her faith steadied him.
